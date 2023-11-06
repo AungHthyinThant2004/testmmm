@@ -18,9 +18,7 @@ except ImportError:
     print('\n\tPlease install mechanize.\n')
     sys.exit()
 
-def clear():
-        os.system('clear')
-        print(f"""
+print(f"""
 
                   _____            ____  ____ _____ _______ 
                  |  __ \     /\   |  _ \|  _ \_   _|__   __|
