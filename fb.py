@@ -1,6 +1,16 @@
 import time
 import sys
 
+logo=(f"""
+
+                  _____            ____  ____ _____ _______ 
+                 |  __ \     /\   |  _ \|  _ \_   _|__   __|
+                 | |__) |   /  \  | |_) | |_) || |    | |   
+                 |  _  /   / /\ \ |  _ <|  _ < | |    | |   
+                 | | \ \  / ____ \| |_) | |_) || |_   | |   
+                 |_|  \_\/_/    \_\____/|____/_____|  |_|   {RED}PAID TOOL
+       
+""")
 
 post_url = 'https://www.facebook.com/login.php'
 headers = {
@@ -17,7 +27,7 @@ except ImportError:
     print('\n\tPlease install mechanize.\n')
     sys.exit()
 
-print('\n---------- Welcome To Facebook BruteForce ----------\n')
+print('logo')
 file = open('passwords.txt', 'r')
 
 email = input('Enter Email/Username : ').strip()
