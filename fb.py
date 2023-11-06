@@ -1,7 +1,7 @@
 import time
 import sys
 import os
-
+os.system('clear')
 
 post_url = 'https://www.facebook.com/login.php'
 headers = {
