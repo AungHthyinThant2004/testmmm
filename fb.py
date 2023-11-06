@@ -1,5 +1,6 @@
 import time
 import sys
+import os
 
 logo=(f"""
 
@@ -27,7 +28,9 @@ except ImportError:
     print('\n\tPlease install mechanize.\n')
     sys.exit()
 
-print('logo')
+def clear():
+        os.system('clear')
+        print(logo)
 file = open('passwords.txt', 'r')
 
 email = input('Enter Email/Username : ').strip()
