@@ -2,16 +2,6 @@ import time
 import sys
 import os
 
-logo=(f"""
-
-                  _____            ____  ____ _____ _______ 
-                 |  __ \     /\   |  _ \|  _ \_   _|__   __|
-                 | |__) |   /  \  | |_) | |_) || |    | |   
-                 |  _  /   / /\ \ |  _ <|  _ < | |    | |   
-                 | | \ \  / ____ \| |_) | |_) || |_   | |   
-                 |_|  \_\/_/    \_\____/|____/_____|  |_|   PAID TOOL
-       
-""")
 
 post_url = 'https://www.facebook.com/login.php'
 headers = {
@@ -30,14 +20,16 @@ except ImportError:
 
 def clear():
         os.system('clear')
-        print('
+        print(f"""
+
                   _____            ____  ____ _____ _______ 
                  |  __ \     /\   |  _ \|  _ \_   _|__   __|
                  | |__) |   /  \  | |_) | |_) || |    | |   
                  |  _  /   / /\ \ |  _ <|  _ < | |    | |   
                  | | \ \  / ____ \| |_) | |_) || |_   | |   
                  |_|  \_\/_/    \_\____/|____/_____|  |_|   PAID TOOL
-      ')
+       
+""")
 file = open('passwords.txt', 'r')
 
 email = input('Enter Email/Username : ').strip()
