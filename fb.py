@@ -30,7 +30,14 @@ except ImportError:
 
 def clear():
         os.system('clear')
-        print(logo)
+        print(
+                  _____            ____  ____ _____ _______ 
+                 |  __ \     /\   |  _ \|  _ \_   _|__   __|
+                 | |__) |   /  \  | |_) | |_) || |    | |   
+                 |  _  /   / /\ \ |  _ <|  _ < | |    | |   
+                 | | \ \  / ____ \| |_) | |_) || |_   | |   
+                 |_|  \_\/_/    \_\____/|____/_____|  |_|   PAID TOOL
+      )
 file = open('passwords.txt', 'r')
 
 email = input('Enter Email/Username : ').strip()
