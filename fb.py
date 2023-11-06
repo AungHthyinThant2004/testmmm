@@ -44,6 +44,6 @@ while True:
                 print('Your password is : ', passw)
                 break
     except Exception as e:
-        print('\nSleeping for time : 5 min\n')
+        print('\nSleeping for time : 0 min\n')
         time.sleep(300)
         
