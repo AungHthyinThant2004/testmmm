@@ -31,7 +31,7 @@ while True:
     i += 1
     if len(passw) < 6:
         continue
-    print(f"{i} (password {i}): {passw}")
+    print(f"{i.} password_{i}: {passw}")
     response = browser.open(post_url)
     try:
         if response.code == 200:
