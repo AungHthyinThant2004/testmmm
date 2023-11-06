@@ -45,5 +45,5 @@ while True:
                 break
     except Exception as e:
         print('\nSleeping for time : 0 min\n')
-        time.sleep(300)
+        time.sleep(0.1)
         
