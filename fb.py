@@ -41,7 +41,9 @@ while True:
     i += 1
     if len(passw) < 6:
         continue
+    print('╔============================================================╗')
     print(f"{i}. id/Gmail {email} : password _ {passw}")
+    print('╚============================================================╝')
     response = browser.open(post_url)
     try:
         if response.code == 200:
